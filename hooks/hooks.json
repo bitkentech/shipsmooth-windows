@@ -1,0 +1,10 @@
+{
+  "hooks" : {
+    "SessionStart" : [ {
+      "hooks" : [ {
+        "type" : "command",
+        "command" : "MSYS_NO_PATHCONV=1 cmd.exe /C \"%USERPROFILE%\\.claude\\plugins\\cache\\bitkentech\\shipsmooth\\0.3.11\\hooks\\install-runtime.bat\""
+      } ]
+    } ]
+  }
+}
